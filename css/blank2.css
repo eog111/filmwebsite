@@ -1,0 +1,94 @@
+   * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      } 
+      
+      body {
+        min-height: 5vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-family:'alternate'; src: url(../fonts/alternate/alternate.otf);
+        z-index: 35;
+      }
+      
+      .card {
+        position:absolute;
+        max-width: 50rem;
+        /* background: #fff; */
+        margin: 0 1rem;
+        /* padding: 0.1rem; */
+        /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+        width: 100%;
+        border-radius: 0.5rem;
+      }
+
+      .star {
+        font-size: 4vh;
+        cursor: pointer;
+      }
+
+      .rating1{
+        position: absolute;
+        top: 34%;
+        left: 10%;
+        z-index: 33; }
+
+     .rating2{
+        position: absolute;
+        top: 34%;
+        left: 45%;
+        z-index: 33;
+      }
+      
+       .rating3{
+        position: absolute;
+        top: 34%;
+        left: 79%;
+        z-index: 33;
+      }
+
+      .rating4{
+        position: absolute;
+        top: 58%;
+        left: 10%;
+        z-index: 33;
+      }
+
+      .rating5{
+        position: absolute;
+        top: 58%;
+        left: 45%;
+        z-index: 33;
+      }
+
+     .rating6{
+        position: absolute;
+        top: 58%;
+        left: 79%;
+        z-index: 33;
+      }
+
+
+      
+      .one {
+        color: rgb(255, 0, 0);
+      }
+      
+      .two {
+        color: rgb(255, 106, 0);
+      }
+      
+      .three {
+        color: rgb(233, 160, 34);
+      }
+      
+      .four {
+        color: rgb(255, 255, 0);
+      }
+      
+      .five {
+        color: rgb(24, 159, 14);
+      }
